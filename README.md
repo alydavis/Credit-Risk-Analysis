@@ -10,30 +10,31 @@ Dataset: [LendingClub](https://www.lendingclub.com/)
 
 ## Results
 ### Model 1: RandomOverSampler ![]()
-  - Balanced Accuracy:
+  - Balanced Accuracy: 65%
   - Precision:
   - Recall: 
 ### Model 2: SMOTE![]()
-  - Balanced Accuracy:
+  - Balanced Accuracy: 62%
   - Precision:
   - Recall: 
-### Model 3: ClusterCentroids ![]()
-  - Balanced Accuracy:
+### Model 3: Undersampling ![]()
+  - Balanced Accuracy: 62%
   - Precision:
   - Recall: 
-### Model 4: SMOTEENN ![]()
-  - Balanced Accuracy:
+### Model 4: Combination Over & Under Sampling ![]()
+  - Balanced Accuracy: 51%
   - Precision:
   - Recall: 
 ### Model 5: BalancedRandomForestClassifier ![]()
-  - Balanced Accuracy:
+  - Balanced Accuracy: 79%
   - Precision:
   - Recall: 
 ### Model 6: EasyEnsembleClassifier![]()
-  - Balanced Accuracy:
+  - Balanced Accuracy: 79%
   - Precision:
   - Recall: 
 
 ## Summary
-Summary of the results
-<br> Recommendation on which model to use
+Based on accuracy rating, the best performing model was The EasyEnsembleClassifier.
+
+I would recommendation banks use the [X] model.
