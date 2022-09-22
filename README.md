@@ -35,10 +35,13 @@ Dataset: [LendingClub](https://www.lendingclub.com/)
   - Recall: 
 
 ## Summary
-Based on accuracy rating (the number of times the ML model was correct overall), the best performing model was The EasyEnsembleClassifier.
+The accuracy rating tells us the number of times the ML model was correct overall (for both high-risk and low-risk loans). By this metric, the best performing model was The EasyEnsembleClassifier. However, with imbalanced classes like loans, I think this overall rating can be misleading, because there is are fewer high-risk loans compared to low-risk loans.
 
+If I were a bank, my model focus would be identifying the high-risk loans. So, precision and recall better evalute a model for a specific class, in this case, high-risk loans.
 
-Precision tells us how good the model is at predicting a specific category, in this case, high-risk loans. 
+Precision tells us how good the model is at predicting high-risk loans. Are the loans we're classifying as high risk, actually high risk? 
+Recall tells us how many times the model was able to detect a specific category. How many high-risk loans were accurately classified compared to all actual high risk loans in the model?
 
-Recall tells us how many times the model was able to detect a specific category. 
-I would recommendation banks use the [X] model.
+There is a tradeoff between precision and recall. While we certainly want a model to be accurate and precise, I believe the recall is extremely important. As a banker, I would want to make sure I'm not missing out on classifing high-risk loans.
+
+Therefore, I would recommendation banks use the [X] model.
