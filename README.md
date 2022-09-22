@@ -35,6 +35,10 @@ Dataset: [LendingClub](https://www.lendingclub.com/)
   - Recall: 
 
 ## Summary
-Based on accuracy rating, the best performing model was The EasyEnsembleClassifier.
+Based on accuracy rating (the number of times the ML model was correct overall), the best performing model was The EasyEnsembleClassifier.
 
+
+Precision tells us how good the model is at predicting a specific category, in this case, high-risk loans. 
+
+Recall tells us how many times the model was able to detect a specific category. 
 I would recommendation banks use the [X] model.
