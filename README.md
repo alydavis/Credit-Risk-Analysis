@@ -9,28 +9,28 @@ Dataset: [LendingClub](https://www.lendingclub.com/)
 - [scikit-learn](https://scikit-learn.org/stable/) 1.1.2
 
 ## Results
-- Model 1: RandomOverSampler ![]()
-  - Balanced Accuracy
+### Model 1: RandomOverSampler ![]()
+  - Balanced Accuracy:
   - Precision:
   - Recall: 
-- Model 2: SMOTE![]()
-  - Balanced Accuracy
+### Model 2: SMOTE![]()
+  - Balanced Accuracy:
   - Precision:
   - Recall: 
-- Model 3: ClusterCentroids ![]()
-  - Balanced Accuracy
+### Model 3: ClusterCentroids ![]()
+  - Balanced Accuracy:
   - Precision:
   - Recall: 
-- Model 4: SMOTEENN ![]()
-  - Balanced Accuracy
+### Model 4: SMOTEENN ![]()
+  - Balanced Accuracy:
   - Precision:
   - Recall: 
-- Model 5: BalancedRandomForestClassifier ![]()
-  - Balanced Accuracy
+### Model 5: BalancedRandomForestClassifier ![]()
+  - Balanced Accuracy:
   - Precision:
   - Recall: 
-- Model 6: EasyEnsembleClassifier![]()
-  - Balanced Accuracy
+### Model 6: EasyEnsembleClassifier![]()
+  - Balanced Accuracy:
   - Precision:
   - Recall: 
 
